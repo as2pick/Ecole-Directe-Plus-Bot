@@ -1,0 +1,6 @@
+{
+    "watch": ["api-src", "discord_bot-src"],
+    "ext": "js,json",
+    "ignore": ["node_modules"],
+    "exec": "node ./api-src/index.js"
+}

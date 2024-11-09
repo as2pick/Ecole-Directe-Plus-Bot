@@ -1,0 +1,33 @@
+{
+    "name": "ecole-directe-plus-bot",
+    "version": "1.0.0",
+    "description": "The api and bot for Ecole Directe Plus website",
+    "main": "api_interface/utils/index.js   ",
+    "scripts": {
+        "devA": "nodemon --watch api-src --ext js,json --ignore node_modules --exec node api-src/index.js",
+        "devD": "nodemon --watch discord_bot-src --ext js,json --ignore node_modules --exec node discord_bot-src/index.js",
+        "format": "prettier --write \"discord_bot-src/**/*.{js,py,txt}\" \"api-src/**/*.{js,py,txt}\""
+    },
+    "author": "vooxify.public@outlook.fr",
+    "license": "ISC",
+    "dependencies": {
+        "@prisma/client": "^5.20.0",
+        "axios": "^1.7.2",
+        "bcrypt": "^5.1.1",
+        "cors": "^2.8.5",
+        "discord.js": "^14.16.3",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.0",
+        "fs": "^0.0.1-security",
+        "jsonwebtoken": "^9.0.2",
+        "nodemon": "^3.1.0",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.3.0",
+        "eslint": "^9.3.0",
+        "globals": "^15.3.0",
+        "prettier": "^3.3.3",
+        "prisma": "^5.20.0"
+    }
+}

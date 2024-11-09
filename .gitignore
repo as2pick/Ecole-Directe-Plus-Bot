@@ -1,0 +1,8 @@
+.env
+eslint.config.mjs
+test.js
+.certs/public.pem
+.certs/private.pem
+node_modules/
+package-lock.json
+prisma/

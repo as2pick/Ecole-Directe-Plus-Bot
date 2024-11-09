@@ -1,0 +1,6 @@
+{
+    "1": "A special error was occured",
+    "524": "The PORT is not correctly defined in environement file",
+    "204": "An unexpected header was given",
+    "205": "Missing header"
+}

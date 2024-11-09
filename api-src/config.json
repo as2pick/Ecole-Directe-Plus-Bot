@@ -1,0 +1,7 @@
+{
+    "api_routes_path": "../api/",
+    "env_path": "../../.env",
+    "route_file_format": "route.js",
+    "excluded_routes": [],
+    "excluded_files": ["index.js"]
+}
